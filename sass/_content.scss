@@ -66,7 +66,37 @@
 
 	}
 
+/********clothing page**********/
 
+.clothing-img-container-1, .clothing-img-container-2, {
+ float: left;
+  padding-top: 20px;
+  height: 400px;
+}
+
+.clothing-img-container-1 {
+  width: 50%;
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+  url('../img/model-1.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.clothing-img-container-2 {
+  width: 50%;
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+  url('../img/modle-2.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
 
 
 .clearfix::after {
@@ -74,3 +104,11 @@
      display: table;
      clear: both;
 }
+
+
+.card-1, .card-2, .card-3 {
+   height: 300px;
+   background: #444;
+   position: relative;
+	 border-radius: 9px;
+       }
