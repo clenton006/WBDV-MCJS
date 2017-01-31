@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  width:80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/*********************Nav***************************/
+nav{
+  padding:10px 0;
+  height: 100px;
+  width: 100%;
+  background-color: #222;
+  color: white;
+}
+/*********************Hero***************************/
+
+.hero{
+  padding:10px 0;
+  height: 250px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+}
+/*********************Main***************************/
+
+main{
+  padding:10px 0;
+  // height: 600px;
+  width: 100%;
+}
+
+.bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag6, .bag7, .bag8, .bag9, .bag10, .bag11, .bag12{
+  // background: red;
+  padding: 20px;
+  height: 200px;
+  padding-top:100px;
+  background-position: 50% 50%;
+ -webkit-background-size: cover;
+   -moz-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}
+
+.bag1{
+  background-image:url(../img/bag1.jpg);
+}
+
+.bag2{
+  background-image:url(../img/bag2.jpg);
+}
+
+.bag3{
+  background-image:url(../img/bag3.jpg);
+}
+
+.bag4{
+  background-image:url(../img/bag4.gif);
+}
+
+.bag5{
+  background-image:url(../img/sack.jpg);
+}
+
+.bag6{
+  background-image:url(../img/backpack.jpg);
+}
+
+.bag7{
+  background-image:url(../img/men-bag.jpg);
+}
+
+.bag8{
+  background-image:url(../img/office-bag.jpg);
+}
+
+.bag9{
+  background-image:url(../img/bear.jpg);
+}
+
+.bag10{
+  background-image:url(../img/lunch-kit.jpg_256);
+}
+
+.bag11{
+  background-image:url(../img/minion.jpg);
+}
+
+.bag12{
+  background-image:url(../img/truck.jpg);
+}
+/*********************Footer***************************/
+
+footer{
+  padding:10px 0;
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+}
