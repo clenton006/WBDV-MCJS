@@ -12,6 +12,11 @@ h1{
   margin: 0 auto;
 }
 
+.wrapper h1{
+  text-align: center;
+  color:#2bb;
+}
+
 /*********************Nav***************************/
 nav{
   height: 80px;
@@ -65,7 +70,7 @@ main{
 }
 
 .bag5{
-  background-image:url(../img/sack.jpg);
+  background-image:url(../img/bag5.jpg);
 }
 
 .bag6{
@@ -138,7 +143,12 @@ footer{
     line-height: 20px;
     color: #4B4F56;
 }
+<<<<<<< HEAD
 .bio-1, .bio-2, .bio-3, .bio-4, .bio-5, .bio-6, .bio-7, .bio-8, .bio-9, .bio-10, .bio-11, .bio-12{
+=======
+
+.bio-1, .bio-2, .bio-3, .bio-4, .bio-5, .bio-6, .bio-7, .bio-8, .bio-9, .bio-10, bio-11, .bio-12{
+>>>>>>> f0e63d35411eadbc5339a7281372933578a0e107
     height: calc(100% - 150px);
     background-repeat: no-repeat;
     background-position: 50% 50%;
