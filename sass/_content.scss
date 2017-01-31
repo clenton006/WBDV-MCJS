@@ -24,6 +24,15 @@ nav{
   background-color: #222;
   color: white;
 }
+
+.logo-container{
+  height:60px;
+}
+
+.logo-container i{
+  color:red;
+
+}
 /*********************Hero***************************/
 
 .hero{
@@ -37,12 +46,10 @@ nav{
 
 main{
   padding:10px 0;
-  // height: 600px;
   width: 100%;
 }
 
 .bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag6, .bag7, .bag8, .bag9, .bag10, .bag11, .bag12{
-  // background: red;
   padding: 20px;
   height: 200px;
   padding-top:100px;
@@ -100,15 +107,6 @@ main{
 .bag12{
   background-image:url(../img/truck.jpg);
 }
-/*********************Footer***************************/
-
-footer{
-  padding:10px 0;
-  height: 300px;
-  width: 100%;
-  background-color: grey;
-  color: black;
-}
 
 .card{
     height: 350px;
@@ -153,7 +151,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
 }
-.bio-1{   
+.bio-1{
     background-image: url(../img/bio-01.jpg);
 }
 .bio-2{
@@ -188,4 +186,14 @@ footer{
 }
 .bio-12{
     background-image: url(../img/bio-012.jpg);
+}
+
+/*********************Footer***************************/
+
+footer{
+  padding:10px 0;
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  color: black;
 }
