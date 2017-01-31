@@ -1,0 +1,43 @@
+nav {
+    height: 80px;
+    width: 100%;
+    background: #222;
+}
+.logo-container{
+    display: inline-block;
+    margin: 0;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    padding: 10px 0 10px 20px;
+    & a{
+        color: #FFF;
+    }
+    & i{
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
+.menu-container{
+    vertical-align: top;
+    float: right;
+    height: 80px;
+    & ul{
+        margin: 0;
+        float: right;
+    }
+    & li{
+        padding: 0 15px;
+        display: inline-block;
+        line-height: 80px;
+        font-size: 1.3em;
+    }
+    & li:hover{
+        background-color: rgba(255,255,255,.1);
+        color: #AAA;
+    }
+    & a{
+        text-decoration: none;
+        color: #AAA;
+    }
+}
