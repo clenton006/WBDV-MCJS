@@ -1,7 +1,4 @@
 
-
-
-
 .main-wrapper {
 
          .main-img-container, .main-description {
@@ -73,30 +70,23 @@
  float: left;
   padding-top: 20px;
   height: 400px;
+  width: 50%;
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 
 .clothing-img-container-1 {
-  width: 50%;
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
-  url('../img/model-1.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
+  background-image:url('../img/model-1.jpg');
+
 }
 
 .clothing-img-container-2 {
-  width: 50%;
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
-  url('../img/modle-2.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
+  background-image: url('../img/modle-2.jpg');
 }
 
 
