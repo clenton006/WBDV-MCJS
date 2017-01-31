@@ -15,9 +15,7 @@ h1{
   text-align: center;
   color:#2bb;
 }
-
 .main-wrapper {
-
          .main-img-container, .main-description {
              float: left;
              margin-top: 30px;
@@ -28,8 +26,8 @@ h1{
 		 .main-img-container {
 		     width: 50%;
 			 background: red;
-       background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
-       url('../img/wall.jpg');
+       background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+       background-image: url('../img/wall.jpg');
        background-position: 50% 50%;
        background-repeat: no-repeat;
        -webkit-background-size:cover;
@@ -72,6 +70,7 @@ h1{
         color: #fff;
         background: #222;
         border-radius: 7px;
+
       }
 
       .learn-more a:hover {
@@ -82,7 +81,7 @@ h1{
 
 /********clothing page**********/
 
-.clothing-img-container-1, .clothing-img-container-2, {
+.clothing-img-container-1, .clothing-img-container-2 {
  float: left;
   padding-top: 20px;
   height: 400px;
@@ -98,13 +97,11 @@ h1{
 
 .clothing-img-container-1 {
   background-image:url('../img/model-1.jpg');
-
 }
 
 .clothing-img-container-2 {
   background-image: url('../img/modle-2.jpg');
 }
-
 
 .clearfix::after {
      content: "";
@@ -112,13 +109,13 @@ h1{
      clear: both;
 }
 
-
 .card-1, .card-2, .card-3 {
    height: 300px;
    background: #444;
    position: relative;
 	 border-radius: 9px;
        }
+
 
 
 /*********************Nav***************************/
@@ -295,10 +292,23 @@ main{
 /*********************Footer***************************/
 
 footer{
+  display: inline-block;
   padding:10px 0;
   height: 300px;
   width: 100%;
-  background-color: grey;
   color: black;
+  background-color: #bbb;
 }
 
+.store, .service, .social{
+  margin-left: 50px;
+  padding:20px;
+}
+footer li{
+  list-style: none;
+}
+
+.social li{
+  display: inline-block;
+  font-size: 20px;
+}
