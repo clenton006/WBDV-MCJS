@@ -137,10 +137,86 @@ nav{
 
 .hero{
   padding:10px 0;
-  height: 250px;
   width: 100%;
   background-color: grey;
   color: black;
+  height:700px;
+  background-position: 50% 50%;
+  background-image: url('../img/hero.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.hero-container{
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.hero-container h1 {
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.hero-container p{
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.hero-container{
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.hero-container h1 {
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.hero-container p{
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.hero-mini{
+  height:300px;
+}
+  
+.hero-container{
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.hero-container h1 {
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.hero-container p{
+  color:#fff;
+  text-shadow: rgba(0,0,0,.75) 0.1em 0.1em 25px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+.hero-mini{
+  height:300px;
 }
 /*********************Main***************************/
 
