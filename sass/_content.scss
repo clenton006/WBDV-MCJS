@@ -1,3 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  width:90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper h1{
+  text-align: center;
+  color:#2bb;
+}
+
 .main-wrapper {
 
          .main-img-container, .main-description {
@@ -54,7 +72,6 @@
         color: #fff;
         background: #222;
         border-radius: 7px;
-
       }
 
       .learn-more a:hover {
@@ -69,30 +86,23 @@
  float: left;
   padding-top: 20px;
   height: 400px;
+  width: 50%;
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
 }
 
 .clothing-img-container-1 {
-  width: 50%;
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
-  url('../img/model-1.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
+  background-image:url('../img/model-1.jpg');
+
 }
 
 .clothing-img-container-2 {
-  width: 50%;
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
-  url('../img/modle-2.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
+  background-image: url('../img/modle-2.jpg');
 }
 
 
@@ -109,23 +119,7 @@
    position: relative;
 	 border-radius: 9px;
        }
-*{
-  box-sizing: border-box;
-}
-h1{
-  font-family: 'Roboto', sans-serif;
-}
 
-.wrapper{
-  width:90%;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.wrapper h1{
-  text-align: center;
-  color:#2bb;
-}
 
 /*********************Nav***************************/
 nav{
@@ -133,6 +127,14 @@ nav{
   width: 100%;
   background-color: #222;
   color: white;
+}
+
+.logo-container{
+  height:60px;
+}
+
+.logo-container i{
+  color:red;
 }
 /*********************Hero***************************/
 
@@ -160,12 +162,10 @@ nav{
 
 main{
   padding:10px 0;
-  // height: 600px;
   width: 100%;
 }
 
 .bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag6, .bag7, .bag8, .bag9, .bag10, .bag11, .bag12{
-  // background: red;
   padding: 20px;
   height: 200px;
   padding-top:100px;
@@ -223,6 +223,7 @@ main{
 .bag12{
   background-image:url(../img/truck.jpg);
 }
+<<<<<<< HEAD
 /*********************Footer***************************/
 
 footer{
@@ -232,6 +233,9 @@ footer{
   background-color: grey;
   color: black;
 }
+=======
+
+>>>>>>> c5dd10dc2f9354b55ff735e518a0601bafe6f06b
 .card{
     height: 350px;
     background: #333;
@@ -274,7 +278,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
 }
-.bio-1{   
+.bio-1{
     background-image: url(../img/bio-01.jpg);
 }
 .bio-2{
@@ -310,3 +314,16 @@ footer{
 .bio-12{
     background-image: url(../img/bio-012.jpg);
 }
+
+
+
+/*********************Footer***************************/
+
+footer{
+  padding:10px 0;
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+}
+
