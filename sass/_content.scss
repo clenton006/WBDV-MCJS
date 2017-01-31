@@ -232,7 +232,7 @@ footer{
     box-shadow: 0 20px 20px rgba(0,0,0,.08);
 }
 .card-description{
-    background: white;
+    background: #AAA;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -258,7 +258,6 @@ footer{
     line-height: 20px;
     color: #4B4F56;
 }
-
 .bio-1, .bio-2, .bio-3, .bio-4, .bio-5, .bio-6, .bio-7, .bio-8, .bio-9, .bio-10, bio-11, .bio-12{
     height: calc(100% - 150px);
     background-repeat: no-repeat;
