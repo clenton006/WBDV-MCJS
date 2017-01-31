@@ -8,5 +8,5 @@ All of us worked on the index page
 
 Connor worked on the navigation bar and the About page.
 Sui worked on the main part of the home page and the Clothing page.
-worked on the hero section and the Accessories page.
+Mariya worked on the hero section and the Accessories page.
 Joy worked on the footer on the home page nad the Contact page.
