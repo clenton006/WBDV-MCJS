@@ -1,4 +1,119 @@
 
+<<<<<<< HEAD
+
+
+.main-wrapper {
+
+         .main-img-container, .main-description {
+             float: left;
+             margin-top: 30px;
+	         height:500px;
+
+		 }
+
+		 .main-img-container {
+		     width: 50%;
+			 background: red;
+       background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+       url('../img/wall.jpg');
+       background-position: 50% 50%;
+       background-repeat: no-repeat;
+       -webkit-background-size:cover;
+       -moz-background-size:cover;
+       -o-background-size:cover;
+       background-size:cover;
+			 }
+		 .main-description  {
+             width: 50%;
+
+             }
+
+      .main-description h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        font-weight: 400;
+        padding-top: 40px;
+      }
+      .main-description p {
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        padding: 20px 20px 0 20px;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      .main-description .learn-more {
+        text-align: center;
+        padding-top: 30px;
+      }
+
+      .main-description .learn-more a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        height: 20px;
+        width: 90px;
+        color: #fff;
+        background: #222;
+        border-radius: 7px;
+
+      }
+
+      .learn-more a:hover {
+        color: grey;
+      }
+
+	}
+
+/********clothing page**********/
+
+.clothing-img-container-1, .clothing-img-container-2, {
+ float: left;
+  padding-top: 20px;
+  height: 400px;
+}
+
+.clothing-img-container-1 {
+  width: 50%;
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+  url('../img/model-1.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.clothing-img-container-2 {
+  width: 50%;
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+  url('../img/modle-2.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+
+.clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+
+.card-1, .card-2, .card-3 {
+   height: 300px;
+   background: #444;
+   position: relative;
+	 border-radius: 9px;
+       }
+=======
 *{
   box-sizing: border-box;
 }
@@ -188,3 +303,4 @@ footer{
 .bio-12{
     background-image: url(../img/bio-012.jpg);
 }
+>>>>>>> f0e63d35411eadbc5339a7281372933578a0e107
