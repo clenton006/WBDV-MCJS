@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 
 .main-wrapper {
@@ -112,3 +113,195 @@
    position: relative;
 	 border-radius: 9px;
        }
+=======
+*{
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+  width:90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper h1{
+  text-align: center;
+  color:#2bb;
+}
+
+/*********************Nav***************************/
+nav{
+  height: 80px;
+  width: 100%;
+  background-color: #222;
+  color: white;
+}
+/*********************Hero***************************/
+
+.hero{
+  padding:10px 0;
+  height: 250px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+}
+/*********************Main***************************/
+
+main{
+  padding:10px 0;
+  // height: 600px;
+  width: 100%;
+}
+
+.bag1, .bag2, .bag3, .bag4, .bag5, .bag6, .bag6, .bag7, .bag8, .bag9, .bag10, .bag11, .bag12{
+  // background: red;
+  padding: 20px;
+  height: 200px;
+  padding-top:100px;
+  background-position: 50% 50%;
+ -webkit-background-size: cover;
+   -moz-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}
+
+.bag1{
+  background-image:url(../img/bag1.jpg);
+}
+
+.bag2{
+  background-image:url(../img/bag2.jpg);
+}
+
+.bag3{
+  background-image:url(../img/bag3.jpg);
+}
+
+.bag4{
+  background-image:url(../img/bag4.gif);
+}
+
+.bag5{
+  background-image:url(../img/bag5.jpg);
+}
+
+.bag6{
+  background-image:url(../img/backpack.jpg);
+}
+
+.bag7{
+  background-image:url(../img/men-bag.jpg);
+}
+
+.bag8{
+  background-image:url(../img/office-bag.jpg);
+}
+
+.bag9{
+  background-image:url(../img/bear.jpg);
+}
+
+.bag10{
+  background-image:url(../img/lunch-kit.jpg_256);
+}
+
+.bag11{
+  background-image:url(../img/minion.jpg);
+}
+
+.bag12{
+  background-image:url(../img/truck.jpg);
+}
+/*********************Footer***************************/
+
+footer{
+  padding:10px 0;
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+}
+
+.card{
+    height: 350px;
+    background: #333;
+    position: relative;
+    box-shadow: 0 20px 20px rgba(0,0,0,.08);
+}
+.card-description{
+    background: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-description h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    color: #1D2129;
+}
+.card-description p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4B4F56;
+}
+
+.bio-1, .bio-2, .bio-3, .bio-4, .bio-5, .bio-6, .bio-7, .bio-8, .bio-9, .bio-10, bio-11, .bio-12{
+    height: calc(100% - 150px);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-1{   
+    background-image: url(../img/bio-01.jpg);
+}
+.bio-2{
+    background-image: url(../img/bio-02.jpg);
+}
+.bio-3{
+    background-image: url(../img/bio-03.jpg);
+}
+.bio-4{
+    background-image: url(../img/bio-04.jpg);
+}
+.bio-5{
+    background-image: url(../img/bio-05.jpg);
+}
+.bio-6{
+    background-image: url(../img/bio-06.jpg);
+}
+.bio-7{
+    background-image: url(../img/bio-07.jpg);
+}
+.bio-8{
+    background-image: url(../img/bio-08.jpg);
+}
+.bio-9{
+    background-image: url(../img/bio-09.jpg);
+}
+.bio-10{
+    background-image: url(../img/bio-010.jpg);
+}
+.bio-11{
+    background-image: url(../img/bio-011.jpg);
+}
+.bio-12{
+    background-image: url(../img/bio-012.jpg);
+}
+>>>>>>> f0e63d35411eadbc5339a7281372933578a0e107
