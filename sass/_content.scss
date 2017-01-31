@@ -1,0 +1,164 @@
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+}
+.card{
+    height: 350px;
+    background: #333;
+    position: relative;
+    box-shadow: 0 20px 20px rgba(0,0,0,.08);
+}
+.card-description{
+    background: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.card-description h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    color: #1D2129;
+}
+.card-description p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4B4F56;
+}
+.bio-1{   
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-2{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-3{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-4{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-4.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-5{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-5.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-6{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-6.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bio-7{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-7.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.bio-8{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-8.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.bio-9{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-9.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.bio-10{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-10.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.bio-11{
+    height: calc(100% - 150px);
+    background-image: url(../img/bio-11.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.bio-12{
+    height: calc(100% - 150px);
+    background-image: linear-gradient( 0deg, rgba(20,20,20,0.2), rgba(20,20,220,0.4) ), url(../img/bio-12.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
