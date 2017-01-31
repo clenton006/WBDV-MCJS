@@ -27,7 +27,6 @@ nav {
         float: right;
     }
     & li{
-        padding: 0 15px;
         display: inline-block;
         line-height: 80px;
         font-size: 1.3em;
@@ -37,6 +36,7 @@ nav {
         color: #AAA;
     }
     & a{
+        padding: 28.5px 15px;
         text-decoration: none;
         color: #AAA;
     }
