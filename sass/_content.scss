@@ -7,6 +7,21 @@
 
 		 }
 
+     .hero {
+       height: 300px;
+       width: 100%;
+       background: red;
+       background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
+       url('../img/clothing-3.jpg');
+       background-position: 50% 50%;
+       background-repeat: no-repeat;
+       -webkit-background-size:cover;
+       -moz-background-size:cover;
+       -o-background-size:cover;
+       background-size:cover;
+
+     }
+
 		 .main-img-container {
 		     width: 50%;
 			 background: red;
@@ -109,6 +124,16 @@
    position: relative;
 	 border-radius: 9px;
        }
+
+
+.clothing-card-description  a {
+  padding: 10px auto;
+  text-align: center;
+
+  text-decoration: none;
+  color: #fff;
+}
+      /**********************/
 *{
   box-sizing: border-box;
 }
@@ -262,7 +287,7 @@ footer{
     -o-background-size: cover;
     background-size: cover;
 }
-.bio-1{   
+.bio-1{
     background-image: url(../img/bio-01.jpg);
 }
 .bio-2{
