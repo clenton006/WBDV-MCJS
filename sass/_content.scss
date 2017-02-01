@@ -23,20 +23,7 @@ h1{
 
 		 }
 
-     .hero {
-       height: 300px;
-       width: 100%;
-       background: red;
-       background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) ),
-       url('../img/clothing-3.jpg');
-       background-position: 50% 50%;
-       background-repeat: no-repeat;
-       -webkit-background-size:cover;
-       -moz-background-size:cover;
-       -o-background-size:cover;
-       background-size:cover;
 
-     }
 
 		 .main-img-container {
 		     width: 50%;
@@ -98,8 +85,9 @@ h1{
 
 .clothing-img-container-1, .clothing-img-container-2 {
  float: left;
-  padding-top: 20px;
-  height: 400px;
+
+  margin-top: 20px;
+  height: 500px;
   width: 50%;
   background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
   background-position: 50% 50%;
@@ -130,13 +118,72 @@ h1{
    position: relative;
 	 border-radius: 9px;
        }
-<<<<<<< HEAD
+
+.clothing-card-description-1 {
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+  background-image: url('../img/modle.jpeg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  opacity: 0.6;
+}
+
+.clothing-card-description-2 {
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+  background-image: url('../img/menclothing.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  opacity: 0.6;
+}
+
+.clothing-card-description-3 {
+  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+  background-image: url('../img/kids.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  opacity: 0.6;
+}
+
+.clothing-card-description-1  ,  .clothing-card-description-2  , .clothing-card-description-3    {
+  height: 250px;
+  width: 100%;
+}
 
 
-.clothing-card-description  a {
-  padding: 10px auto;
+.clothing-card-description-1 h1 a,  .clothing-card-description-2 h1 a, .clothing-card-description-3  h1  a{
   text-align: center;
+  padding: 10px 50px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+}
 
+.clothing-card-description-1 h1 a:hover {
+  color: grey;
+}
+.clothing-card-description-2 h1 a:hover {
+  color: grey;
+}
+.clothing-card-description-3  h1  a:hover {
+  color: grey;
+}
+
+.card-1 p,  .card-2 p, .card-3  p {
+  text-align: center;
+  padding: 10px auto;
+  margin-top: 7px;
   text-decoration: none;
   color: #fff;
 }
