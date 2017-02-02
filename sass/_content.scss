@@ -238,6 +238,19 @@ nav{
        -o-background-size: cover;
           background-size: cover;
 }
+.hero-2{
+  padding:10px 0;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  height:400px;
+  background-position: 50% 50%;
+  background-image: url('../img/fashion.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
 
 .hero-container{
   color: white;
@@ -280,6 +293,7 @@ nav{
 }
 
 .hero-mini{
+
   height:300px;
 }
 
@@ -385,7 +399,24 @@ main{
 
 .bag12{
   background-image:url(../img/truck.jpg);
+  
 }
+
+/**************Contact*********************************/
+
+.contact-label{
+color: black;
+font-size: 20px;}
+
+.wrapper p{
+color: black;}
+
+
+
+
+
+
+
 /*********************Footer***************************/
 
 footer{
@@ -472,7 +503,13 @@ footer{
 }
 .bio-12{
     background-image: url(../img/bio-012.jpg);
+	
 }
+
+
+/****************Contact*********************************/
+
+
 
 /*********************Footer***************************/
 footer{
