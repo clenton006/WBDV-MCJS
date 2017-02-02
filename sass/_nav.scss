@@ -3,6 +3,7 @@ nav {
     width: 100%;
     background: #222;
 }
+
 .logo-container{
     display: inline-block;
     margin: 0;
@@ -18,6 +19,7 @@ nav {
         font-weight: bold;
     }
 }
+
 .menu-container{
     vertical-align: top;
     float: right;
@@ -27,7 +29,7 @@ nav {
         float: right;
     }
     & li{
-        padding: 0 15px;
+        float: left;
         display: inline-block;
         line-height: 80px;
         font-size: 1.3em;
@@ -37,6 +39,7 @@ nav {
         color: #AAA;
     }
     & a{
+        padding: 28.5px 15px;
         text-decoration: none;
         color: #AAA;
     }
