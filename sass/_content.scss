@@ -280,7 +280,8 @@ nav{
 }
 
 .hero-mini{
-  height:300px;
+  @extend .hero;
+  height:200px;
 }
 
 .hero-container{
