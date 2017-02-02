@@ -293,8 +293,8 @@ nav{
 }
 
 .hero-mini{
-
-  height:300px;
+  @extend .hero;
+  height:200px;
 }
 
 .hero-container{
@@ -412,11 +412,6 @@ font-size: 20px;}
 color: black;}
 
 
-
-
-
-
-
 /*********************Footer***************************/
 
 footer{
@@ -505,10 +500,6 @@ footer{
     background-image: url(../img/bio-012.jpg);
 	
 }
-
-
-/****************Contact*********************************/
-
 
 
 /*********************Footer***************************/

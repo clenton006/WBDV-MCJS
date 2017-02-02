@@ -233,7 +233,7 @@ nav {
   color: red; }
 
 /*********************Hero***************************/
-.hero {
+.hero, .hero-mini {
   padding: 10px 0;
   width: 100%;
   background-color: grey;
@@ -293,7 +293,7 @@ nav {
   text-align: center; }
 
 .hero-mini {
-  height: 300px; }
+  height: 200px; }
 
 .hero-container {
   color: white;
@@ -474,7 +474,6 @@ footer {
 .bio-12 {
   background-image: url(../img/bio-012.jpg); }
 
-/****************Contact*********************************/
 /*********************Footer***************************/
 footer {
   display: inline-block;
