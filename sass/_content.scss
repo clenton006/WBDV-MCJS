@@ -90,9 +90,11 @@ h1{
 
 
 .clothing-category {
-  height: 55px;
-  width: 100%;
-  background: #222;
+	  height: 55px;
+	  width: 100%;
+	  background: #222;
+	  margin-top:0;
+	  margin-bottom: 20px;
 
 }
 
@@ -107,8 +109,6 @@ h1{
   padding-top: 13px;
   height: 45px;
   width: 90px;
-
-  // background: red;
 }
 
 .clothing-category .clothing-category-list  a:hover {
@@ -116,110 +116,115 @@ h1{
 }
 
 
-.clothing-img-container-1, .clothing-img-container-2 {
- float: left;
 
-  margin-top: 10px;
-  height: 500px;
-  width: 50%;
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-}
+.main-clothing-section {
 
-.clothing-img-container-1 {
-  background-image:url('../img/model-1.jpg');
-}
+     .clothing-img-container-1, .clothing-img-container-2 {
+         float: left;
 
-.clothing-img-container-2 {
-  background-image: url('../img/modle-2.jpg');
-}
+         margin-top: 10px;
+         height: 500px;
+         width: 50%;
+         background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+         background-position: 50% 50%;
+         background-repeat: no-repeat;
+         -webkit-background-size:cover;
+         -moz-background-size:cover;
+         -o-background-size:cover;
+         background-size:cover;
+         }
 
-.clearfix::after {
-     content: "";
-     display: table;
-     clear: both;
-}
+	.clothing-img-container-1 {
+	     background-image:url('../img/model-1.jpg');
+	     }
 
-.card-1, .card-2, .card-3 {
-   height: 300px;
-   background: #444;
-   position: relative;
-	 border-radius: 9px;
-       }
+	.clothing-img-container-2 {
+	     background-image: url('../img/modle-2.jpg');
+	     }
 
-.clothing-card-description-1 {
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
-  background-image: url('../img/modle.jpeg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  opacity: 0.6;
-}
+	.clearfix::after {
+		 content: "";
+		 display: table;
+		 clear: both;
+	     }
 
-.clothing-card-description-2 {
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
-  background-image: url('../img/menclothing.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  opacity: 0.6;
-}
+	.card-1, .card-2, .card-3 {
+	     height: 300px;
+	     background: #444;
+	     position: relative;
+		 border-radius: 9px;
+		   }
 
-.clothing-card-description-3 {
-  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
-  background-image: url('../img/kids.png');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  opacity: 0.6;
-}
+	.clothing-card-description-1 {
+	     background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+	     background-image: url('../img/modle.jpeg');
+	     background-position: 50% 50%;
+	     background-repeat: no-repeat;
+	     -webkit-background-size:cover;
+	     -moz-background-size:cover;
+	     -o-background-size:cover;
+	     background-size:cover;
+	     opacity: 0.6;
+	     }
 
-.clothing-card-description-1  ,  .clothing-card-description-2  , .clothing-card-description-3    {
-  height: 250px;
-  width: 100%;
-}
+	.clothing-card-description-2 {
+	     background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+	     background-image: url('../img/menclothing.jpg');
+	     background-position: 50% 50%;
+	     background-repeat: no-repeat;
+	     -webkit-background-size:cover;
+	     -moz-background-size:cover;
+	     -o-background-size:cover;
+	     background-size:cover;
+	     opacity: 0.6;
+	     }
+
+	.clothing-card-description-3 {
+	  background: linear-gradient( rgba(20,20, 20, 0.2), rgba(20,20, 20, 0.2) );
+	  background-image: url('../img/kids.png');
+	  background-position: 50% 50%;
+	  background-repeat: no-repeat;
+	  -webkit-background-size:cover;
+	  -moz-background-size:cover;
+	  -o-background-size:cover;
+	  background-size:cover;
+	  opacity: 0.6;
+	}
+
+	.clothing-card-description-1  ,  .clothing-card-description-2  , .clothing-card-description-3    {
+	  height: 250px;
+	  width: 100%;
+	}
 
 
-.clothing-card-description-1 h1 a,  .clothing-card-description-2 h1 a, .clothing-card-description-3  h1  a{
-  text-align: center;
-  padding: 10px 50px;
-  margin-top: 20px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 50px;
-}
+	.clothing-card-description-1 h1 a,  .clothing-card-description-2 h1 a, .clothing-card-description-3  h1  a{
+	  text-align: center;
+	  padding: 10px 50px;
+	  margin-top: 20px;
+	  text-decoration: none;
+	  color: #fff;
+	  font-size: 50px;
+	}
 
-.clothing-card-description-1 h1 a:hover {
-  color: grey;
-}
-.clothing-card-description-2 h1 a:hover {
-  color: grey;
-}
-.clothing-card-description-3  h1  a:hover {
-  color: grey;
-}
+	.clothing-card-description-1 h1 a:hover {
+	  color: grey;
+	}
+	.clothing-card-description-2 h1 a:hover {
+	  color: grey;
+	}
+	.clothing-card-description-3  h1  a:hover {
+	  color: grey;
+	}
 
-.card-1 p,  .card-2 p, .card-3  p {
-  text-align: center;
-  padding: 10px auto;
-  margin-top: 7px;
-  text-decoration: none;
-  color: #fff;
+	.card-1 p,  .card-2 p, .card-3  p {
+	  text-align: center;
+	  padding: 10px auto;
+	  margin-top: 7px;
+	  text-decoration: none;
+	  color: #fff;
+	}
 }
+	
       /**********************/
 *{
   box-sizing: border-box;
