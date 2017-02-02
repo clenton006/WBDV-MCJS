@@ -1,3 +1,4 @@
+      /**********************/
 *{
   box-sizing: border-box;
 }
@@ -15,8 +16,6 @@ h1{
   text-align: center;
   color:#2bb;
 }
-
-
 /**********************main-section****************/
      .main-wrapper  {
          
@@ -82,8 +81,6 @@ h1{
          }
 
 	}
-	
-
 /********clothing page**********/
 
 
@@ -106,18 +103,14 @@ h1{
   padding-top: 13px;
   height: 45px;
   width: 90px;
-
-  // background: red;
 }
 
 .clothing-category .clothing-category-list  a:hover {
   background-color: rgba(255,255,255,.1);
 }
 
-
 .clothing-img-container-1, .clothing-img-container-2 {
  float: left;
-
   margin-top: 10px;
   height: 500px;
   width: 50%;
@@ -192,7 +185,6 @@ h1{
   width: 100%;
 }
 
-
 .clothing-card-description-1 h1 a,  .clothing-card-description-2 h1 a, .clothing-card-description-3  h1  a{
   text-align: center;
   padding: 10px 50px;
@@ -219,17 +211,6 @@ h1{
   text-decoration: none;
   color: #fff;
 }
-      /**********************/
-*{
-  box-sizing: border-box;
-}
-h1{
-  font-family: 'Roboto', sans-serif;
-}
-
-
-
-
 /*********************Nav***************************/
 nav{
   height: 80px;
@@ -301,10 +282,6 @@ nav{
   text-align: center;
 }
 
-.hero-mini{
-  height:300px;
-}
-
 .hero-container{
   color: white;
   padding-top: 300px;
@@ -330,6 +307,7 @@ nav{
 .hero-mini{
   height:300px;
 }
+
 .about-hero{
   padding:10px 0;
   height: 400px;
@@ -487,5 +465,3 @@ main{
 .bio-12{
     background-image: url(../img/bio-012.jpg);
 }
-
-
