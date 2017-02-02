@@ -17,7 +17,6 @@ h1{
 }
 
 
-
 /**********************main-section****************/
      .main-wrapper  {
          
@@ -409,15 +408,7 @@ main{
 .bag12{
   background-image:url(../img/truck.jpg);
 }
-/*********************Footer***************************/
 
-footer{
-  padding:10px 0;
-  height: 300px;
-  width: 100%;
-  background-color: grey;
-  color: black;
-}
 .card{
     height: 350px;
     background: #333;
@@ -498,27 +489,3 @@ footer{
 }
 
 
-
-/*********************Footer***************************/
-
-footer{
-  display: inline-block;
-  padding:10px 0;
-  height: 300px;
-  width: 100%;
-  color: black;
-  background-color: #bbb;
-}
-
-.store, .service, .social{
-  margin-left: 50px;
-  padding:20px;
-}
-footer li{
-  list-style: none;
-}
-
-.social li{
-  display: inline-block;
-  font-size: 20px;
-}
